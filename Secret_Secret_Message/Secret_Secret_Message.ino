@@ -8,7 +8,7 @@
 LiquidCrystal_I2C lcd(I2C_ADDR, LCD_WIDTH, LCD_HEIGHT);
 
 // Message to display
-const char* message = "shakeshack >> in nout";
+const char* message = "shakeshack >> innout";
 
 void setup() {
     lcd.init(); // Initialize the LCD
